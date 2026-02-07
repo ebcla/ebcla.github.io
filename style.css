@@ -357,10 +357,9 @@ p{ margin: 0 0 10px; }
 #rsvpList li{
   margin:6px 0;
   font-weight:600;
-.title-logo{
-  max-width: 300px;
-  width: 20%;
+
+  .title-logo{
+  max-width: 360px;
+  width: 100%;
   height: auto;
-  display: block;
-  margin: 0 0 10px;
 }
