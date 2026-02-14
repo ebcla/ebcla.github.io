@@ -284,3 +284,18 @@ body::before{
   .map-grid{ grid-template-columns:1fr; }
   .t-item{ grid-template-columns:1fr; }
 }
+/* Apply water background to schedule + FAQ */
+
+.t-item,
+.faq-q,
+.faq-a {
+  background-image:
+    linear-gradient(rgba(11,28,61,0.12), rgba(11,28,61,0.12)),
+    url("water.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+}
+
